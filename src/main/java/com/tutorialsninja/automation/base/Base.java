@@ -22,27 +22,6 @@ public class Base {
 	public static ConfigurationReader reader;
 	
 	
-	
-	
-	
-	@Before
-	public void setUp(Scenario scenario){
-		log.info("Scenario Started: "+scenario.getName());
-		PropertyConfigurator.configure(PathHelper.getResourcePath("/src/main/resources/ConfigurationFile/log4j.properties"));
-		reader=new PropertyFileReader();
-		Browser.startBrowser();
-		Browser.maximize();
-	}
-	
-	@After
-	public void closeBrowser(Scenario scenario){
-		if(scenario.isFailed()){
-			scenario.embed(Browser.takeScreenshot(), "image/png");
-		}
-		log.info("Scenario Completed: "+scenario.getName());
-		log.info("Scenario Status is: "+scenario.getStatus());
-		Base.driver.quit();
-		}
 	}
 
 

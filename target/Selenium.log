@@ -1,0 +1,14 @@
+2018-10-22 22:10:44 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-22 22:11:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-22 22:11:30 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started3283931
+2018-10-22 22:11:31 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the details
+2018-10-22 22:11:31 [INFO ] [Base] - [closeBrowser] Scenario Status is: undefined
+2018-10-22 22:23:52 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-22 22:23:56 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started30842498
+2018-10-22 22:24:07 [INFO ] [Base] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the details
+2018-10-22 22:24:07 [INFO ] [Base] - [closeBrowser] Scenario Status is: passed
+2018-10-22 22:56:54 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the details
+2018-10-22 22:56:54 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-22 22:56:59 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started7757525
+2018-10-22 22:57:04 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the details
+2018-10-22 22:57:04 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
