@@ -55,121 +55,121 @@ public class Elements {
 		return Base.driver.getTitle();
 	}
 	
-	public String getCurrentUrl(){
+	public static String getCurrentUrl(){
 		return Base.driver.getCurrentUrl();
 	}
 
-	public boolean isSelected(WebElement element) {
+	public static boolean isSelected(WebElement element) {
 		if (element.isSelected()) 
 			return true;
 		return false;
 	}
 
-	public void selectCheckBox(WebElement element) {
+	public static void selectCheckBox(WebElement element) {
 		if (!isSelected(element))
 			element.click();
 	}
 
-	public void deSelectCheckbox(WebElement element) {
+	public static void deSelectCheckbox(WebElement element) {
 		if (isSelected(element))
 			element.click();
 	}
 
-	public void selectRadioButton(WebElement element) {
+	public static void selectRadioButton(WebElement element) {
 		if (!isSelected(element))
 			element.click();
 	}
 
-	public void deSelectRadioButton(WebElement element) {
+	public static void deSelectRadioButton(WebElement element) {
 		if (isSelected(element))
 			element.click();
 	}
 	
-	public boolean isEnabled(WebElement element){
+	public static boolean isEnabled(WebElement element){
 		if(element.isEnabled())
 			return true;
 		return false;
 	}
 	
-	public boolean isDisplayed(WebElement element){
+	public static boolean isDisplayed(WebElement element){
 		if(element.isDisplayed())
 			return true;
 		return false;
 	}
 	
-	public void selectByText(WebElement element,String text){
+	public static void selectByText(WebElement element,String text){
 		Select select=new Select(element);
 		select.selectByVisibleText(text);
 	}
 	
-	public void selectByIndex(WebElement element,int index){
+	public static void selectByIndex(WebElement element,int index){
 		Select select=new Select(element);
 		select.selectByIndex(index);
 	}
 	
-	public void selectByValue(WebElement element,String value){
+	public static void selectByValue(WebElement element,String value){
 		Select select=new Select(element);
 		select.selectByValue(value);
 	}
 	
-	public String getFirstSelectedOption(WebElement element){
+	public static String getFirstSelectedOption(WebElement element){
 		Select select=new Select(element);
 		return select.getFirstSelectedOption().getText();
 	}
 	
-	public List<WebElement> getAllSelectedOptions(WebElement element){
+	public static List<WebElement> getAllSelectedOptions(WebElement element){
 		Select select=new Select(element);
 		return select.getAllSelectedOptions();
 		}
 	
-	public List<WebElement> getAllOptions(WebElement element){
+	public static List<WebElement> getAllOptions(WebElement element){
 		Select select=new Select(element);
 		return select.getOptions();
 	}
 	
-	public void deSelectByText(WebElement element,String text){
+	public static void deSelectByText(WebElement element,String text){
 		Select select=new Select(element);
 		select.deselectByVisibleText(text);
 	}
 	
-	public void deSelectByIndex(WebElement element,int index){
+	public static void deSelectByIndex(WebElement element,int index){
 		Select select=new Select(element);
 		select.deselectByIndex(index);
 	}
 	
-	public void deSelectByValue(WebElement element,String value){
+	public static void deSelectByValue(WebElement element,String value){
 		Select select=new Select(element);
 		select.deselectByValue(value);
 	}
 	
-	public void click(WebElement element){
+	public static void click(WebElement element){
 		Waits.waitUntil(() ->isDisplayed(element));
 		element.click();
 	}
 	
-	public void clickOnlyIfElementPresent(WebElement element){
+	public static void clickOnlyIfElementPresent(WebElement element){
 		if(isDisplayed(element))
 			element.click();
 	}
 	
-	public Alert getAlert() {
+	public static Alert getAlert() {
 		return Base.driver.switchTo().alert();
 	}
 	
-	public void AcceptAlert() {
+	public static void AcceptAlert() {
 		getAlert().accept();
 	}
 	
-	public void DismissAlert() {
+	public static void DismissAlert() {
 		getAlert().dismiss();
 	}
 
-	public String getAlertText() {
+	public static String getAlertText() {
 		String text = getAlert().getText();
 		return text;
 	}
 
-	public boolean isAlertPresent() {
+	public static boolean isAlertPresent() {
 		try {
 			Base.driver.switchTo().alert();
 			return true;
@@ -178,20 +178,20 @@ public class Elements {
 		}
 	}
 
-	public void AcceptAlertIfPresent() {
+	public static void AcceptAlertIfPresent() {
 		if (!isAlertPresent())
 			return;
 		AcceptAlert();
 	}
 
-	public void DismissAlertIfPresent() {
+	public static void DismissAlertIfPresent() {
 
 		if (!isAlertPresent())
 			return;
 		DismissAlert();
 	}
 	
-	public void AcceptPrompt(String text) {
+	public static void AcceptPrompt(String text) {
 		
 		if (!isAlertPresent())
 			return;
@@ -201,45 +201,45 @@ public class Elements {
 		alert.accept();
 	}
 
-	public void scrollToElemet(WebElement element) {
+	public static void scrollToElemet(WebElement element) {
 		Waits.tryJavascript("window.scrollTo(arguments[0],arguments[1])", element.getLocation().x, element.getLocation().y);
 	}
 	
-	public void scrollToElemetAndClick(WebElement element) {
+	public static void scrollToElemetAndClick(WebElement element) {
 		scrollToElemet(element);
 		element.click();
 	}
 
-	public void scrollIntoView(WebElement element) {
+	public static void scrollIntoView(WebElement element) {
 		Waits.tryJavascript("arguments[0].scrollIntoView()", element);
 	}
 
-	public void scrollIntoViewAndClick(WebElement element) {
+	public static void scrollIntoViewAndClick(WebElement element) {
 		scrollIntoView(element);
 		element.click();
 	}
 	
-	public void scrollDownVertically() {
+	public static void scrollDownVertically() {
 		Waits.tryJavascript("window.scrollTo(0, document.body.scrollHeight)");
 	}
 
-	public void scrollUpVertically() {
+	public static  void scrollUpVertically() {
 		Waits.tryJavascript("window.scrollTo(0, -document.body.scrollHeight)");
 	}
 
-	public void scrollDownByPixel() {
+	public static  void scrollDownByPixel() {
 		Waits.tryJavascript("window.scrollBy(0,1500)");
 	}
 
-	public void scrollUpByPixel() {
+	public static  void scrollUpByPixel() {
 		Waits.tryJavascript("window.scrollBy(0,-1500)");
 	}
 
-	public void ZoomInBypercentage() {
+	public  static void ZoomInBypercentage() {
 		Waits.tryJavascript("document.body.style.zoom='40%'");
 	}
 
-	public void ZoomBy100percentage() {
+	public static  void ZoomBy100percentage() {
 		Waits.tryJavascript("document.body.style.zoom='100%'");
 	}
 
