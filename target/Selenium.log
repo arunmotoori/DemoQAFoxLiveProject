@@ -235,3 +235,98 @@
 2018-10-27 12:12:55 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started30510347
 2018-10-27 12:13:06 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
 2018-10-27 12:13:06 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:34:03 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2018-10-28 00:34:03 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:34:10 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:34:15 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2018-10-28 00:34:15 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2018-10-28 00:44:22 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2018-10-28 00:44:22 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:44:27 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:44:35 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2018-10-28 00:44:35 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: failed
+2018-10-28 00:45:14 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2018-10-28 00:45:14 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:45:19 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:45:26 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2018-10-28 00:45:26 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:50:18 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:50:18 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:50:24 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:50:33 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:50:33 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: undefined
+2018-10-28 00:54:12 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:54:12 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:54:17 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:54:24 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:54:24 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:55:09 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2018-10-28 00:55:09 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:55:14 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:55:21 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2018-10-28 00:55:21 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:55:33 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:55:33 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:55:38 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started15360140
+2018-10-28 00:55:45 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:55:45 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:56:13 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2018-10-28 00:56:13 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:56:18 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started4554260
+2018-10-28 00:56:25 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2018-10-28 00:56:25 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:56:26 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:56:26 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:56:29 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started748884
+2018-10-28 00:56:36 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2018-10-28 00:56:36 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:58:21 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to login with valid credentials
+2018-10-28 00:58:21 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:58:26 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started2968774
+2018-10-28 00:58:34 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to login with valid credentials
+2018-10-28 00:58:34 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:58:35 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is not able to login with invalid credentials
+2018-10-28 00:58:35 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:58:38 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started2918266
+2018-10-28 00:58:46 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is not able to login with invalid credentials
+2018-10-28 00:58:46 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:58:46 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is not able to login without providing credentials
+2018-10-28 00:58:46 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:58:49 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started22601405
+2018-10-28 00:58:57 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is not able to login without providing credentials
+2018-10-28 00:58:57 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:58:58 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to reset the forgotten password
+2018-10-28 00:58:58 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:59:01 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started33422085
+2018-10-28 00:59:11 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to reset the forgotten password
+2018-10-28 00:59:11 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:59:11 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is able to register into the application by providing all the details
+2018-10-28 00:59:11 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:59:14 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started8043592
+2018-10-28 00:59:24 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is able to register into the application by providing all the details
+2018-10-28 00:59:24 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:59:25 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is not allowed to register on skipping the mandatory fields
+2018-10-28 00:59:25 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:59:27 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started25628071
+2018-10-28 00:59:36 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is not allowed to register on skipping the mandatory fields
+2018-10-28 00:59:36 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:59:37 [INFO ] [Hooks] - [setUp] Scenario Started: Verify  whether the user is able to register into the application by opting for Newsletter subscription
+2018-10-28 00:59:37 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:59:40 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started27737569
+2018-10-28 00:59:50 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify  whether the user is able to register into the application by opting for Newsletter subscription
+2018-10-28 00:59:50 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 00:59:50 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the user is restricted from creating a duplicate account
+2018-10-28 00:59:50 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 00:59:53 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started31282825
+2018-10-28 01:00:02 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the user is restricted from creating a duplicate account
+2018-10-28 01:00:02 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 01:00:03 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is able to search for the products
+2018-10-28 01:00:03 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 01:00:06 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started27825961
+2018-10-28 01:00:13 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is able to search for the products
+2018-10-28 01:00:13 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
+2018-10-28 01:00:14 [INFO ] [Hooks] - [setUp] Scenario Started: Verify whether the User is informed when the product being searched is not available
+2018-10-28 01:00:14 [INFO ] [Browser] - [startBrowser] Selected Browser is: chrome
+2018-10-28 01:00:17 [INFO ] [Browser] - [startBrowser] Chrome Browser is Started21874778
+2018-10-28 01:00:24 [INFO ] [Hooks] - [closeBrowser] Scenario Completed: Verify whether the User is informed when the product being searched is not available
+2018-10-28 01:00:24 [INFO ] [Hooks] - [closeBrowser] Scenario Status is: passed
