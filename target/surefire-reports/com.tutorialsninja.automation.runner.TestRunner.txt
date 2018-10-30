@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.tutorialsninja.automation.runner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 61, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 140.136 sec
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 170.112 sec

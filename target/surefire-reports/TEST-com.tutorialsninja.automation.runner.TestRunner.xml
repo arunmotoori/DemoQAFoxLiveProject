@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="61" failures="0" name="com.tutorialsninja.automation.runner.TestRunner" time="9.242" errors="0" skipped="0">
+<testsuite tests="61" failures="0" name="com.tutorialsninja.automation.runner.TestRunner" time="9.831" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_171\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="D:\Automation\JuneBatch\xyz\WorkspaceKLM\WorkspaceLMN\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8514297204415311384.tmp"/>
+    <property name="classworlds.conf" value="D:\Automation\JuneBatch\xyz\WorkspaceKLM\WorkspaceLMN\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3821386782945552153.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files (x86)\Java\jre1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre1.8.0_171/bin/client;C:/Program Files (x86)/Java/jre1.8.0_171/bin;C:/Program Files (x86)/Java/jre1.8.0_171/lib/i386;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Java\jdk1.8.0_171\bin;C:\apache-maven-3.5.4\bin;C:\apache-ant-1.10.5\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\arunm\AppData\Local\Microsoft\WindowsApps;;D:\Automation\JuneBatch\eclipse-dsl-photon-RC3-win32\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,44 +61,44 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="Given I launch the application" time="0.008"/>
+  <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="Given I launch the application" time="0.005"/>
   <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="And I navigate to Account Login page" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="When I login to the Application using Username &quot;ravi.kiran1@gmail.com&quot; and Password &quot;rkiran&quot;" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="Then I should see that the User is able to login successfully" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="Scenario: Verify whether the User is able to login with valid credentials" time="0.865"/>
+  <testcase classname="Scenario: Verify whether the User is able to login with valid credentials" name="Scenario: Verify whether the User is able to login with valid credentials" time="0.943"/>
   <testcase classname="Scenario: Verify whether the User is not able to login with invalid credentials" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the User is not able to login with invalid credentials" name="And I navigate to Account Login page" time="0"/>
   <testcase classname="Scenario: Verify whether the User is not able to login with invalid credentials" name="When I login to the Application using Username &quot;ravi.kiran99@gmail.com&quot; and Password &quot;rkiran99&quot;" time="0"/>
   <testcase classname="Scenario: Verify whether the User is not able to login with invalid credentials" name="Then I should see an error message that the credentails are invalid" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is not able to login with invalid credentials" name="Scenario: Verify whether the User is not able to login with invalid credentials" time="0.832"/>
+  <testcase classname="Scenario: Verify whether the User is not able to login with invalid credentials" name="Scenario: Verify whether the User is not able to login with invalid credentials" time="0.895"/>
   <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="And I navigate to Account Login page" time="0"/>
   <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="When I login to the Application using Username &quot;&quot; and Password &quot;&quot;" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="Then I should see an error message that the credentails are invalid" time="0.001"/>
-  <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="Scenario: Verify whether the User is not able to login without providing credentials" time="0.91"/>
-  <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="Given I launch the application" time="0.001"/>
+  <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="Then I should see an error message that the credentails are invalid" time="0"/>
+  <testcase classname="Scenario: Verify whether the User is not able to login without providing credentials" name="Scenario: Verify whether the User is not able to login without providing credentials" time="0.886"/>
+  <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="And I navigate to Account Login page" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="When I reset the forgotten password for email &quot;ravi.kiran@gmail.com&quot;" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="Then I should see a message informing the User that information related to restting password have been sent to email address" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="Scenario: Verify whether the User is able to reset the forgotten password" time="0.844"/>
+  <testcase classname="Scenario: Verify whether the User is able to reset the forgotten password" name="Scenario: Verify whether the User is able to reset the forgotten password" time="0.901"/>
   <testcase classname="Scenario: Verify whether the User is able to place orders" name="Given I login to the application" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to place orders" name="When I add a product to bag and checkout" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to place orders" name="And I place an order" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to place orders" name="Then I should see that the order is placed successfuly" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is able to place orders" name="Scenario: Verify whether the User is able to place orders" time="0.832"/>
+  <testcase classname="Scenario: Verify whether the User is able to place orders" name="Scenario: Verify whether the User is able to place orders" time="0.883"/>
   <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="And I navigate to Account Registration page" time="0"/>
   <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="When I provide all the below valid details" time="0"/>
   <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="And I select the Privacy Policy" time="0"/>
   <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="And I click on Continue Button" time="0"/>
   <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="Then I should see that the User account has successfully created" time="0"/>
-  <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="Scenario: Verify whether the user is able to register into the application by providing all the details" time="0.88"/>
+  <testcase classname="Scenario: Verify whether the user is able to register into the application by providing all the details" name="Scenario: Verify whether the user is able to register into the application by providing all the details" time="0.86"/>
   <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="And I navigate to Account Registration page" time="0"/>
   <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="When I click on Continue Button" time="0"/>
   <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="Then I should see that the User Account is not created" time="0"/>
   <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="And I should see the error messages informing the User to fill the mandatory fields" time="0"/>
-  <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" time="0.779"/>
+  <testcase classname="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" name="Scenario: Verify whether the user is not allowed to register on skipping the mandatory fields" time="0.911"/>
   <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="And I navigate to Account Registration page" time="0"/>
   <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="When I provide all the below valid details" time="0"/>
@@ -106,20 +106,20 @@
   <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="And I subscribe to Newsletter" time="0"/>
   <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="And I click on Continue Button" time="0"/>
   <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="Then I should see that the User account has successfully created" time="0"/>
-  <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" time="0.809"/>
+  <testcase classname="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" name="Scenario: Verify  whether the user is able to register into the application by opting for Newsletter subscription" time="0.951"/>
   <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="And I navigate to Account Registration page" time="0"/>
   <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="When I provide the below duplicate details" time="0"/>
-  <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="And I select the Privacy Policy" time="0"/>
+  <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="And I select the Privacy Policy" time="0.001"/>
   <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="And I click on Continue Button" time="0"/>
   <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="Then I should see that the User is restriced from creating dupblicate account" time="0"/>
-  <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="Scenario: Verify whether the user is restricted from creating a duplicate account" time="0.828"/>
+  <testcase classname="Scenario: Verify whether the user is restricted from creating a duplicate account" name="Scenario: Verify whether the user is restricted from creating a duplicate account" time="0.877"/>
   <testcase classname="Scenario: Verify whether the User is able to search for the products" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the User is able to search for the products" name="When I search for a product &quot;Samsung SyncMaster 941BW&quot;" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is able to search for the products" name="Then I should see the product in the search results" time="0.001"/>
-  <testcase classname="Scenario: Verify whether the User is able to search for the products" name="Scenario: Verify whether the User is able to search for the products" time="0.816"/>
+  <testcase classname="Scenario: Verify whether the User is able to search for the products" name="Then I should see the product in the search results" time="0"/>
+  <testcase classname="Scenario: Verify whether the User is able to search for the products" name="Scenario: Verify whether the User is able to search for the products" time="0.861"/>
   <testcase classname="Scenario: Verify whether the User is informed when the product being searched is not available" name="Given I launch the application" time="0"/>
   <testcase classname="Scenario: Verify whether the User is informed when the product being searched is not available" name="When I search for a product &quot;Apple iPhone&quot;" time="0"/>
   <testcase classname="Scenario: Verify whether the User is informed when the product being searched is not available" name="Then I should see a message informing &quot;Your shopping cart is empty!&quot;" time="0"/>
-  <testcase classname="Scenario: Verify whether the User is informed when the product being searched is not available" name="Scenario: Verify whether the User is informed when the product being searched is not available" time="0.836"/>
+  <testcase classname="Scenario: Verify whether the User is informed when the product being searched is not available" name="Scenario: Verify whether the User is informed when the product being searched is not available" time="0.857"/>
 </testsuite>
